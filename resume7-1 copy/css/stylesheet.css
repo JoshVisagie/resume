@@ -1,0 +1,56 @@
+h1{
+    color:#FFB957;
+    font-size:4rem;
+    
+}
+
+h2{
+    color:#FFB957
+
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color:#1C618C;
+    color:#ffffff;
+    padding: 2rem;
+    margin: 2rem
+}
+
+.quickguide{
+padding: 2rem;
+background-color: #ffffff;
+color:#1C618C;
+
+
+}
+
+.contactdetails
+{
+    padding: 2rem;
+    background-color: #ffffff;
+    color:#1C618C;#1C618C;
+}
+
+#profile-pic{
+
+    border-width: 0.5rem;
+    border-color: #FFB957;
+    border-style: solid;
+    border-radius: 20%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    
+ 
+    
+}
+
+header{
+
+padding-left: 2rem;
+
+font-family: Verdana, Tahoma, sans-serif;
+font-size: 2rem;
+
+}
+
