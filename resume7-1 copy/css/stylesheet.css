@@ -13,8 +13,8 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
     background-color:#1C618C;
     color:#ffffff;
-    padding: 2rem;
-    margin: 2rem
+    
+    margin:0;
 }
 
 .quickguide{
@@ -54,3 +54,15 @@ font-size: 2rem;
 
 }
 
+.Hero
+{
+    margin:0%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1C618C;
+    background-image: url("../../images/Hero-Landscape.png");
+    background-size: cover;
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    
+}
