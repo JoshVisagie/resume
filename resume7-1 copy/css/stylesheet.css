@@ -1,3 +1,20 @@
+
+.Hero
+{   
+    text-align: center;
+    margin:0%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1C618C;
+    background-image: url("../../images/pattern.jpg");
+    background-size: cover;
+    background-blend-mode:multiply;
+   
+   
+    
+}
+
+
 h1{
     color:#FFB957;
     font-size:4rem;
@@ -5,7 +22,9 @@ h1{
 }
 
 h2{
-    color:#FFB957
+    color:#FFB957;
+    text-align: center;
+    
 
 }
 
@@ -18,6 +37,7 @@ body {
 }
 
 .quickguide{
+
 padding: 2rem;
 background-color: #ffffff;
 color:#1C618C;
@@ -54,15 +74,31 @@ font-size: 2rem;
 
 }
 
-.Hero
-{
-    margin:0%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #1C618C;
-    background-image: url("../../images/Hero-Landscape.png");
-    background-size: cover;
-    background-blend-mode:multiply;
-    background-repeat: no-repeat;
+@media only screen and (min-width:768){
+
+    .list{
+        display: flex;
+        justify-content: space-around ;
+    }
+
+}
+@media only screen and (min-width: 992px){
+
+    .list{
+        display: flex;
+        justify-content: space-around ; font-size: 2em;
+    }
+    
+    .edu{
+        display: flex;
+        justify-content:center;
+        margin:2rem;
+        text-align: left;
+    }
+
+    body {
+       font-size: 1em;
+    }
     
 }
+    
